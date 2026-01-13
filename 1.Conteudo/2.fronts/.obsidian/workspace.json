@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "9f510681ff59d449",
+    "type": "split",
+    "children": [
+      {
+        "id": "d895fb7ce728be95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c754a012e7ece6a5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nova aba"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fbdd7c3822c80ac0",
+    "type": "split",
+    "children": [
+      {
+        "id": "1d566e57f3b04bf0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "86759727e5282a3d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "a5ad9a1fa24f5183",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "98d24937cfbcac3e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5954941f16bdd03c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f6e5ec943ad7f274",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12b477921b48f1d9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2-css/1.códigos/2.fonts/4.fontes externas/1.fonts.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para 1.fonts"
+            }
+          },
+          {
+            "id": "e2d2cb3866893c83",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2-css/1.códigos/2.fonts/4.fontes externas/1.fonts.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para 1.fonts"
+            }
+          },
+          {
+            "id": "ed6317f5543abc22",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b0efd327b054af25",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2-css/1.códigos/2.fonts/4.fontes externas/1.fonts.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de 1.fonts"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "86759727e5282a3d",
+  "lastOpenFiles": [
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/8.Position/Sem título.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/8.Position/0.Position.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/8.Position/0.inset.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/7.box-shadows/1.box-shadow.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/7.box-shadows/2.colorido.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/7.box-shadows/1.boxshadow/1.box-shadow.md",
+    "2-css/1.códigos/3.text/8.1text-shadow.md",
+    "2-css/1.códigos/2.fonts-swsf/4.fontes externas/1.fonts.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/4.border radius/1.border-radius.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/5.Outeline/1.Outeline externo.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/4.border radius/3.forma geométricas básicas.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/4.border radius/3.clipt-path.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/6.margin/2.margin negative.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/5.margin/3.margim top, bottom, tight lefet....md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/6.margin/1.margein.md",
+    "2-css/1.códigos/4.display/1.display.md",
+    "2-css/1.códigos/3.text/5.text-transform-inherit,initial,unset estudar depois.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/4.border radius/2.border com barras.md",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/0.width-height/3.fit-content.md",
+    "1-html/1.códigos/5-imagens favicons etc/1.(img) imagem/1.(img) imagem.md",
+    "1-html/1.códigos/0.Meta tag e anatomia/0.meta e normalize/2.normalize.md",
+    "1-html/1.códigos/0.Meta tag e anatomia/0.meta e normalize/1.reset.md",
+    "1-html/1.códigos/0.Meta tag e anatomia/0.meta e normalize/0.TPVC.md",
+    "1-html/1.códigos/0.Meta tag e anatomia/0.meta e normalize/3.reset.md",
+    "3.reset.md",
+    "0.Estruturas/1.longin simples/1.Login.md",
+    "2-css/1.códigos/3.text/faltou o text-transforme",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/0.width-height/0.Tipos de Medidas/Sem título",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/0.width-height/2.height",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/0.width-height/1.width",
+    "2-css/1.códigos/5.modelas de caixas, flex, grid/1.Model box/0.width-height",
+    "1-html/1.códigos/12.formulário/2.input/8.CO AQW",
+    "1-html/1.códigos/8-(a) links e hiperlinks/2AMANHA CONTINUAR",
+    "1-html/1.códigos/10.details e popover",
+    "1-html/1.códigos/0.Meta tag e anatomia/Sem título",
+    "1-html/1.códigos/12.table tabelas/1.Tabela simples/Sem título"
+  ]
+}
