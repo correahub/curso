@@ -40,14 +40,53 @@ h1 {
   color: var(--corletra-tituloprincipal);
 }
 
-span{
-    color: #2C3FE3;
+span {
+  color: #2c3fe3;
 }
 
 .paragrafo-principal {
-  padding: 1rem 0;
+  padding: 0.5rem 0;
   font-size: 1.6rem;
   text-align: center;
+  background-color: #bbbfde;
+}
+nav > ul:first-of-type {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 2rem 0rem;
+  gap: 1rem;
+}
+
+.gitz {
+  padding: 1rem 0rem;
+  font-size: 2rem;
+}
+
+.linkezin {
+  padding: 1rem 0rem;
+  font-size: 2rem;
+  color: #1c3dc4;
+}
+.youtube {
+  color: red;
+  padding: 1rem 0rem;
+  font-size: 2rem;
+}
+nav > ul > li > a {
+  background-color: #fffafc;
+  padding: 1rem;
+  color: black;
+  text-decoration-line: none;
+
+  &:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #f8f8f8;
+    text-decoration-style: solid;
+    background-color: #242323;
+    color: #bec0c7;
+  }
 }
 
 h2 {
@@ -73,8 +112,7 @@ p {
 }
 
 ul {
-  list-style-type: none;
-
+  list-style-position: inside;
   li {
     font-size: 1.6rem;
     padding: 0.5rem 0rem;
