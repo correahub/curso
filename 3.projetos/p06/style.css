@@ -70,6 +70,7 @@ body {
         background-color: #0c1013;
         color: #cbe200;
         text-decoration-color: var(--cor-fundo-botao);
+        outline: 2px solid var(--cor-fundo-botao);
       }
     }
 
@@ -79,8 +80,8 @@ body {
       text-decoration: underline var(--cor-fundo-body) solid;
 
       transition:
-        transform 0.3s ease 1s,
-        background-color 0.3s ease 0.1s;
+        transform 0.3s ease,
+        background-color 0.3s ease;
 
       transform: scale(0.9);
     }
@@ -101,7 +102,8 @@ article {
   font-size: 5.4rem;
   color: white;
   text-align: center;
-  margin: 2rem 0rem;
+  margin: 1rem 0rem 2rem;
+  text-transform: uppercase;
 }
 .main-hero_section {
   display: flex;
@@ -112,20 +114,22 @@ article {
 .main-hero_section_card {
   display: flex;
   flex-direction: column;
+  margin-top: 2rem;
+  border-radius: 1rem;
 
   background-color: var(--cor-fundo-card);
   padding: 2rem;
-  flex: 1 1 0;
+  flex: 1;
 }
 
-.main-hero_section_card:hover{
-    box-shadow: 1px 1px 10px var(--cor-fundo-botao);
-    cursor: pointer;
+.main-hero_section_card:hover {
+  box-shadow: 1px 1px 10px var(--cor-fundo-botao);
+  cursor: pointer;
 }
-.main-hero_section_card:hover > .main-hero_section_card_link:hover{
-    background-color: rgb(82, 238, 82);
-    outline: 2px solid black;
-    box-shadow: 1px 1px 10px black;
+.main-hero_section_card_link:hover {
+  box-shadow: 1px 1px 10px var(--cor-fundo-botao);
+  background-color: black;
+  color: var(--cor-fundo-botao);
 }
 
 .main-hero_section_card_titulo {
@@ -134,8 +138,9 @@ article {
     padding: 1rem 0rem;
     border-bottom: 2px solid var(--cor-fundo-botao);
     color: white;
+    text-transform: uppercase;
   }
-  span {
+  h2 + p {
     font-size: 1.8rem;
     display: inline-block;
     padding: 1rem 0rem;
@@ -150,6 +155,7 @@ article {
 
   .main-hero_section_card_list_item {
     color: var(--cor-fundo-botao);
+    
     p {
       font-size: 1.6rem;
       padding: 0.5rem 0rem;
@@ -168,6 +174,7 @@ article {
   padding: 1rem;
   text-align: center;
   font-weight: bold;
+  border-radius: 4px;
 
   transition: transform 0.3s ease;
 
