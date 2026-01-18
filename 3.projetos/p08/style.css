@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  background-top-header: #162028;
+
+  cor-do-texto-no-menu: #425564;
+
+  cor-dos-textos: #555;
+
+  cor-de-fundo-do-box-com-imagem-de-detalhe: #003d52;
+
+  cor-de-fundo-do-footer: #0b171f;
+
+  cor-de-texto-do-footer: #6f8597;
+}
