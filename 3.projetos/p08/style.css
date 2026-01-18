@@ -24,10 +24,10 @@ html {
 }
 
 .header-hero {
-  background-image: linear-gradient(var(--degrade));
+  background: url(imagens/topo.jpg) center center / cover no-repeat;
+  height: 50rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 .header-hero_div {
@@ -62,8 +62,4 @@ html {
       }
     }
   }
-}
-
-.header-hero_img {
-  width: 100%;
 }
