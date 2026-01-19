@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --cor-letras-menu: #f4d30d;
+  --cor-bordas-menu: #f4d30d;
+  --cor-fundo-header: #2a2a2a;
+  --gradiante-fundo-section1:
+    to bottom, #fffffc, #ffffd4, #ffff93, #ffff5e, #ffff3d;
+  --cor-fundo-section3: #003464;
+}
