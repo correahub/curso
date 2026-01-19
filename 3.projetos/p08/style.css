@@ -111,6 +111,7 @@ html {
 
 .main-hero_article1_section_div {
   flex: 1;
+  margin-bottom: 2rem;
 }
 .main-hero_article1_section_div_imagem {
   width: 100%;
@@ -125,4 +126,48 @@ html {
 .main-hero_article1_section_div_paragrafo {
   text-align: center;
   font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.main-hero_article2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:
+    url(imagens/bg_detalhe.png) bottom right no-repeat,
+    var(--cor-de-fundo-do-box-com-imagem-de-detalhe);
+}
+.main-hero_article2_div {
+  width: 80%;
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+.main-hero_article2_titulo-principal {
+  font-size: 5.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.712);
+  padding: 2rem;
+}
+.main-hero_article2_paragrafo-principal {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.856);
+  padding: 2rem;
+  width: 60%;
+  text-align: left;
+  line-height: 1.5;
+}
+.footer-hero {
+  background-color: var(--cor-de-fundo-do-footer);
+  padding: 2rem;
+  text-align: center;
+
+  .footer-hero_paragrafo-principal{
+    font-size: 1.6rem;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
 }
