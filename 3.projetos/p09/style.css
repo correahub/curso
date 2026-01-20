@@ -157,6 +157,7 @@ html {
     }
   }
 }
+
 .main-hero_section2_botao {
   font-size: 1.6rem;
   padding: 2rem 4rem;
@@ -171,5 +172,48 @@ html {
     background-color: black;
     color: var(--cor-bordas-menu);
     outline: 0.2rem double var(--cor-bordas-menu);
+  }
+}
+
+.main-hero_section3 {
+  background-color: var(--cor-fundo-section3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.5rem;
+}
+.main-hero_section3_divz {
+  width: 80%;
+  display: flex;
+  gap: 5rem;
+
+  & > * {
+    flex: 1;
+  }
+}
+.main-hero_section3_div {
+  img {
+    width: 100%;
+    display: block;
+  }
+}
+.main-hero_section3_div_article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .main-hero_section3_div_article_titulo {
+    font-size: 3.4rem;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .main-hero_section3_div_article_paragrafo {
+    font-size: 1.6rem;
+    color: white;
+    line-height: 2.5rem;
+    text-align: center;
   }
 }
