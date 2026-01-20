@@ -10,6 +10,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -19,4 +20,38 @@ html {
   --gradiante-fundo-section1:
     to bottom, #fffffc, #ffffd4, #ffff93, #ffff5e, #ffff3d;
   --cor-fundo-section3: #003464;
+}
+
+.header-hero {
+  background-color: var(--cor-fundo-header);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-hero_div {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.header-hero_div_nav_lista {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.header-hero_div_nav_lista_item_link {
+  font-size: 1.6rem;
+  color: var(--cor-letras-menu);
+  border: 1px solid var(--cor-bordas-menu);
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-decoration-line: none;
+
+  &:hover {
+    background-color: black;
+    text-decoration: underline solid var(--cor-bordas-menu) ;
+  }
 }
