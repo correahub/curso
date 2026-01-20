@@ -241,3 +241,14 @@ html {
     padding: 1rem;
   }
 }
+.footer-hero{
+  background-color: var(--cor-fundo-header);
+  padding: 2rem;
+  text-align: center;
+  .footer-hero_paragrafo{
+    color: white;
+    font-size: 1.6rem;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 900;
+  }
+}
