@@ -56,8 +56,6 @@ html {
   }
 }
 /***MAIN****/
-.main-hero {
-}
 .main-hero_section1 {
   display: flex;
   flex-direction: column;
@@ -83,7 +81,7 @@ html {
   }
 }
 
-.main-hero_section1_div-titulo-principal-link{
+.main-hero_section1_div-titulo-principal-link {
   font-size: 1.6rem;
   padding: 2rem 4rem;
   background-color: var(--cor-bordas-menu);
@@ -94,14 +92,84 @@ html {
   margin-top: 3rem;
   border: 0.2rem solid black;
 
-
-  &:hover{
+  &:hover {
     background-color: black;
     color: var(--cor-bordas-menu);
-    outline: 0.2rem double var(--cor-bordas-menu) ;
+    outline: 0.2rem double var(--cor-bordas-menu);
   }
 }
 
 .main-hero_section1_div-img_img {
   width: 100%;
+}
+/**********************************************/
+.main-hero_section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-hero_section2_titulo {
+  font-size: 3.4rem;
+  margin: 2rem;
+  padding: 2rem;
+  text-transform: capitalize;
+}
+.main-hero_section2_div {
+  width: 80%;
+  display: flex;
+  gap: 1rem;
+
+  .main-hero_section2_article > img {
+    width: 100%;
+    display: block;
+  }
+}
+
+.main-hero_section2_article {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.384);
+  border-radius: 0.9rem 0.9rem 0px 0px/ 0.9rem 0.9rem 0px 0px;
+  overflow: hidden;
+
+  transition: transform 0.3s ease;
+  &:hover {
+    cursor: pointer;
+    transform: scale(0.95);
+  }
+
+  flex: 1;
+
+  .main-hero_section2_article_div {
+    flex: 1;
+
+    .main-hero_section2_article_titulo {
+      font-size: 1.8rem;
+      padding: 1rem 1rem;
+    }
+    .main-hero_section2_article_paragrafo {
+      font-size: 1.6rem;
+      padding: 1rem;
+      color: rgb(94, 92, 92);
+      line-height: 1.9rem;
+    }
+  }
+}
+.main-hero_section2_botao {
+  font-size: 1.6rem;
+  padding: 2rem 4rem;
+  background-color: var(--cor-bordas-menu);
+  display: inline-block;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: var(--cor-fundo-header);
+  margin-top: 3rem;
+  border: 0.2rem solid black;
+  &:hover {
+    background-color: black;
+    color: var(--cor-bordas-menu);
+    outline: 0.2rem double var(--cor-bordas-menu);
+  }
 }
