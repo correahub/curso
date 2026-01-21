@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(160, 160, 160, 0.562);
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.tabela-hero {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.tabela-hero,
+.tabela-hero_caption,
+.tabela-hero_cabecalho_titulos,
+td {
+  border: 1px solid black;
+}
+.tabela-hero_caption {
+  font-size: 2em;
+}
+.tabela-hero_cabecalho_titulos {
+  font-size: 1.6em;
+  padding: 1rem;
+  background-color: rgb(134, 194, 23);
+}
+
+.tabela-hero_principal_Desing {
+    text-align: center;
+    font-size: 1.2em;
+}
+td{
+    text-align: center;
+    padding: 0.3em;
+    font-size: 1.3em;
+}
