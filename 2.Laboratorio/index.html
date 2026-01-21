@@ -7,58 +7,40 @@
     <title>exercício</title>
   </head>
   <body>
-    <main>
-      <table class="tabela-hero">
-        <caption class="tabela-hero_caption">
-          Tabela de preços de cursos
-        </caption>
-        <thead class="tabela-hero_cabecalho">
-          <tr>
-            <th class="tabela-hero_cabecalho_titulos">Área</th>
-            <th class="tabela-hero_cabecalho_titulos">Curso</th>
-            <th class="tabela-hero_cabecalho_titulos">Investimento</th>
-          </tr>
-        </thead>
-        <tbody class="tabela-hero_principal">
-          <section>
-            <tr>
-              <td class="tabela-hero_principal_Desing" rowspan="3">Desing</td>
-              <td>In Desing</td>
-              <td>1.000,00</td>
-            </tr>
-            <tr>
-              <td>In Desing</td>
-              <td>1.000,00</td>
-            </tr>
-            <tr>
-              <td>In Desing</td>
-              <td>1.000,00</td>
-            </tr>
-          </section>
-          <section>
-              <tr>
-                <td class="tabela-hero_principal_Desing" rowspan="3">Developer</td>
-                <td>html</td>
-                <td>1.000,00</td>
-              </tr>
-              <tr>
-                <td>css</td>
-                <td>1.000,00</td>
-              </tr>
-              <tr>
-                <td>javascript</td>
-                <td>1.000,00</td>
-              </tr>
-          </section>
-          <tfoot>
-            <tr>
-                <td colspan="3">
-                    Esses valores podem sofrer alterações.
-                </td>
-            </tr>
-          </tfoot>
-        </tbody>
-      </table>
+    <main class="main-hero">
+      <section class="main-hero_section">
+        <div class="main-hero_section_divzinha">
+          <article class="main-hero_section_article">
+            <h1 class="main-hero_section_article_titulo">
+              Perfil de emanuel soares corrêa
+            </h1>
+            <p class="main-hero_section_article_paragrafo">
+              <strong>Nome: </strong>Emanuel soares corrêa
+            </p>
+          </article>
+
+          <div class="main-hero_section_linkdiv">
+            <button class="solidiz" type="button" popovertarget="caixa">Ajuda</button>
+          </div>
+          
+          <div id="caixa" popover="manual" class="lz">
+            <p>
+              O nome completo do usuário pode ser alterado nas configurações do
+              perfil!
+            </p>
+            <button type="button" class="solidiz" popovertarget="caixa">Fechar</button>
+          </div>
+
+        </div>
+        <article class="main-hero_section_article">
+          <h2 class="main-hero_section_article_titulo">
+            Informações de contato
+          </h2>
+          <p class="main-hero_section_article_paragrafo">
+            <strong>Nome: </strong>Emanuelsupremo@gmail.com
+          </p>
+        </article>
+      </section>
     </main>
   </body>
 </html>
