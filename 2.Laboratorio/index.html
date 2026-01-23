@@ -3,44 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <title>exercício</title>
   </head>
   <body>
+    <header class="header-hero">
+      <h1 class="header-hero_titulo">Login</h1>
+    </header>
     <main class="main-hero">
-      <section class="main-hero_section">
-        <div class="main-hero_section_divzinha">
-          <article class="main-hero_section_article">
-            <h1 class="main-hero_section_article_titulo">
-              Perfil de emanuel soares corrêa
-            </h1>
-            <p class="main-hero_section_article_paragrafo">
-              <strong>Nome: </strong>Emanuel soares corrêa
-            </p>
-          </article>
+      <form
+        action="#"
+        method="get"
+        enctype="application/x-www-form-urlencoded"
+        autocomplete="on"
+        class="main-hero_formulario"
+      >
+        <fieldset class="main-hero_formulario_fieldset">
+          <legend class="main-hero_formulario_fieldset_titulo-legend">
+            Entre com seus dados de acesso
+          </legend>
 
-          <div class="main-hero_section_linkdiv">
-            <button class="solidiz" type="button" popovertarget="caixa">Ajuda</button>
-          </div>
-          
-          <div id="caixa" popover="manual" class="lz">
-            <p>
-              O nome completo do usuário pode ser alterado nas configurações do
-              perfil!
-            </p>
-            <button type="button" class="solidiz" popovertarget="caixa">Fechar</button>
-          </div>
+          <label for="nome"> Nome </label>
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Seu Nome"
+            required
+          />
 
-        </div>
-        <article class="main-hero_section_article">
-          <h2 class="main-hero_section_article_titulo">
-            Informações de contato
-          </h2>
-          <p class="main-hero_section_article_paragrafo">
-            <strong>Nome: </strong>Emanuelsupremo@gmail.com
-          </p>
-        </article>
-      </section>
+          <label for="email"> Email </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Seu Email"
+            required
+          />
+
+          <div>
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar</button>
+          </div>
+        </fieldset>
+      </form>
     </main>
   </body>
 </html>
