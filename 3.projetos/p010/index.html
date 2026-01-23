@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>exercício</title>
+  </head>
+  <body>
+    <main class="main-hero">
+      <form
+        class="main-hero_formulario"
+        action="@"
+        method="get"
+        enctype="multipart/form-data"
+        autocomplete="on"
+      >
+        <fieldset class="main-hero_formulario_fieldset">
+          <legend class="main-hero_formulario_fieldset_titulo">
+            Formulário de contato
+          </legend>
+
+          <label>
+            Nome
+            <input
+              type="text"
+              name="nome"
+              placeholder="Digite seu nome completo"
+              required
+            />
+          </label>
+
+          <label>
+            Email
+            <input
+              type="email"
+              name="email"
+              placeholder="Digite seu email completo"
+              required
+            />
+          </label>
+
+          <label>
+            Assunto
+            <input
+              type="text"
+              name="assunto"
+              placeholder="Digite seu nome completo"
+              required
+            />
+          </label>
+          <label>
+            Menssagem
+            <textarea
+              name="menssagem"
+              placeholder="Digite sua menssagem aqui......"
+              minlength="50"
+              maxlength="1000"
+              rows="7"
+              required
+            ></textarea>
+          </label>
+
+          <div><button type="submit">Enviar</button></div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
