@@ -49,8 +49,21 @@ body {
     }
 
     .main-hero_formulario_fieldset_input {
-      padding: 1rem;
+      padding: 1rem 0.5rem;
       font-size: 1.6rem;
+
+      border: 2px solid transparent;
+      outline: 2px solid transparent;
+
+      border-bottom-color: var(--cor-principal);
+
+      transition: padding-left 0.3s ease 0.1s, background-color 0.2s ease 0.1s;
+
+      &:focus {
+        background-color: rgba(0, 0, 0, 0.1);
+
+        padding-left: 1rem;
+      }
     }
 
     .main-hero_formulario_fieldset_div-container {
