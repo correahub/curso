@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-principal: #3b68b7;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--cor-principal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-hero {
+  background-color: white;
+  padding: 1rem;
+  width: 50rem;
+
+  .main-hero_formulario_fieldset {
+    border-color: transparent;
+    display: flex;
+    flex-direction: column;
+
+    .main-hero_formulario_fieldset_titulo {
+      font-size: 3.4rem;
+      padding: 1rem;
+      color: var(--cor-principal);
+    }
+
+    .main-hero_formulario_fieldset_label {
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      margin: 1rem 0rem;
+      color: rgba(0, 0, 0, 0.6);
+    }
+
+    .main-hero_formulario_fieldset_input {
+      padding: 1rem;
+      font-size: 1.6rem;
+    }
+
+    .main-hero_formulario_fieldset_div-container {
+      padding: 1rem;
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+
+      .main-hero_formulario_fieldset_div-container_div-botaos {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .main-hero_formulario_fieldset_div-container_esqueceu-senha {
+        flex: 1;
+        text-align: right;
+      }
+    }
+  }
+}

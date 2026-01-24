@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Login.com</title>
+  </head>
+  <body>
+    <main class="main-hero">
+      <form
+        class="main-hero_formulario"
+        action="#"
+        method="get"
+        enctype="application/x-www-form-urlencoded"
+        autocomplete="off"
+      >
+        <fieldset class="main-hero_formulario_fieldset">
+          <legend class="main-hero_formulario_fieldset_titulo">Login</legend>
+
+          <label class="main-hero_formulario_fieldset_label" for="username"> Usuário </label>
+          <input
+          class="main-hero_formulario_fieldset_input"
+            type="text"
+            id="username"
+            name="username"
+            required
+            minlength="3"
+          />
+
+          <label class="main-hero_formulario_fieldset_label" for="password"> Senha </label>
+          <input
+          class="main-hero_formulario_fieldset_input"
+            type="password"
+            name="password"
+            id="password"
+            required
+            minlength="5"
+            maxlength="10"
+          />
+
+          <div class="main-hero_formulario_fieldset_div-container">
+            <div class="main-hero_formulario_fieldset_div-container_div-botaos">
+              <button
+                type="submit"
+                class="main-hero_formulario_fieldset_div-container_div-botaos_botao-login"
+              >
+                Login
+              </button>
+              <a
+                href="@"
+                class="main-hero_formulario_fieldset_div-container_div-botaos_botao-cadastre-se"
+                >Cadastre-se</a
+              >
+            </div>
+            <a
+              class="main-hero_formulario_fieldset_div-container_esqueceu-senha"
+              href="@"
+              >Esqueci minha senha</a
+            >
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
