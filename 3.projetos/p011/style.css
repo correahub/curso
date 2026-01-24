@@ -87,6 +87,25 @@ body {
         display: flex;
         align-items: center;
         gap: 1rem;
+
+
+        .main-hero_formulario_fieldset_div-container_div-botaos_botao-login{
+            background-color: var(--cor-principal);
+            color: white;
+            padding: 1rem;
+            font-size: 1.6rem;
+            border: 1px solid transparent;
+            border-radius: 0.3rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bold;
+
+            transition: transform 0.3s ease;
+
+            &:hover{
+                transform: scale(0.95);
+            }
+        }
       }
 
       .main-hero_formulario_fieldset_div-container_esqueceu-senha {
