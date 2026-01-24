@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-principal: #3b68b7;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--cor-principal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-hero {
+  background-image: linear-gradient(to left, white 98%, #28497f 1%);
+  padding: 2rem;
+  width: 50rem;
+
+  .main-hero_formulario_fieldset {
+    border-color: transparent;
+    display: flex;
+    flex-direction: column;
+
+    .main-hero_formulario_fieldset_titulo {
+      font-size: 3.4rem;
+      padding: 1rem;
+      color: var(--cor-principal);
+    }
+
+    .main-hero_formulario_fieldset_label {
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      margin: 1rem 0rem;
+      color: rgba(0, 0, 0, 0.6);
+    }
+
+    .main-hero_formulario_fieldset_input {
+      padding: 1rem 0.5rem;
+      font-size: 1.6rem;
+
+      border: 2px solid transparent;
+      outline: 2px solid transparent;
+
+      border-bottom-color: var(--cor-principal);
+
+      transition:
+        padding-left 0.3s ease 0.1s,
+        background-color 0.2s ease 0.1s;
+
+      &:focus {
+        background-color: rgba(0, 0, 0, 0.1);
+
+        padding-left: 1rem;
+      }
+      &:focus:invalid {
+        border-bottom-color: rgba(255, 0, 0, 0.4);
+      }
+
+      &:focus:valid,
+      &:valid {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-bottom-color: rgb(0, 255, 0, 0.4);
+      }
+    }
+
+    .main-hero_formulario_fieldset_div-container {
+      padding: 1rem;
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+
+      .main-hero_formulario_fieldset_div-container_div-botaos {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        .main-hero_formulario_fieldset_div-container_div-botaos_botao-cadastre-se {
+          background-color: var(--cor-principal);
+          color: white;
+          padding: 1rem;
+          font-size: 1.6rem;
+          border: 1px solid transparent;
+          border-radius: 0.3rem;
+          cursor: pointer;
+          text-transform: uppercase;
+          font-weight: bold;
+
+          transition: transform 0.3s ease;
+
+          &:hover {
+            transform: scale(1.05);
+          }
+        }
+
+       
+      }
+
+      .main-hero_formulario_fieldset_div-container_possui-conta {
+        flex: 1;
+        text-align: right;
+        font-size: 1.4rem;
+
+        transition: transform 0.3s ease;
+
+
+        &:hover{
+            transform: scale(1.02);
+        }
+      }
+    }
+  }
+}

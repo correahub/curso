@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cadastre-se.com</title>
+  </head>
+  <body>
+    <main class="main-hero">
+      <form
+        class="main-hero_formulario"
+        action="#"
+        method="get"
+        enctype="application/x-www-form-urlencoded"
+        autocomplete="off"
+      >
+        <fieldset class="main-hero_formulario_fieldset">
+          <legend class="main-hero_formulario_fieldset_titulo">
+            Cadastre-se
+          </legend>
+
+          <label class="main-hero_formulario_fieldset_label" for="username">
+            Usuário
+          </label>
+          <input
+            class="main-hero_formulario_fieldset_input"
+            type="text"
+            id="username"
+            name="username"
+            required
+            minlength="3"
+          />
+
+          <label for="email" class="main-hero_formulario_fieldset_label">
+            Email
+          </label>
+          <input
+            type="email"
+            class="main-hero_formulario_fieldset_input"
+            id="email"
+            name="email"
+            required
+          />
+
+          <label class="main-hero_formulario_fieldset_label" for="password">
+            Senha
+          </label>
+          <input
+            class="main-hero_formulario_fieldset_input"
+            type="password"
+            name="password"
+            id="password"
+            required
+            minlength="5"
+            maxlength="10"
+          />
+
+          <div class="main-hero_formulario_fieldset_div-container">
+            <div class="main-hero_formulario_fieldset_div-container_div-botaos">
+              <button
+                type="submit"
+                class="main-hero_formulario_fieldset_div-container_div-botaos_botao-cadastre-se"
+              >
+                Cadastre-se
+              </button>
+            </div>
+            <a
+              class="main-hero_formulario_fieldset_div-container_possui-conta"
+              href="/index.html"
+              >Já possui uma conta?</a
+            >
+          </div>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
