@@ -57,12 +57,23 @@ body {
 
       border-bottom-color: var(--cor-principal);
 
-      transition: padding-left 0.3s ease 0.1s, background-color 0.2s ease 0.1s;
+      transition:
+        padding-left 0.3s ease 0.1s,
+        background-color 0.2s ease 0.1s;
 
       &:focus {
         background-color: rgba(0, 0, 0, 0.1);
 
         padding-left: 1rem;
+      }
+      &:focus:invalid{
+        border-bottom-color: rgba(255, 0, 0, 0.4);
+      }
+
+      &:focus:valid,
+      &:valid {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-bottom-color: rgb(0, 255, 0, 0.4);
       }
     }
 
