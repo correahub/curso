@@ -26,8 +26,8 @@ body {
 }
 
 .main-hero {
-  background-color: white;
-  padding: 1rem;
+  background-image: linear-gradient(to left, white 98%, #28497f 1%);
+  padding: 2rem;
   width: 50rem;
 
   .main-hero_formulario_fieldset {
