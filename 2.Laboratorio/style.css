@@ -1,58 +1,29 @@
-a[href="http://serfrontend.com"] {
-  background-color: red;
-  padding: 0.5rem;
-  display: inline-block;
-  color: yellow;
+@charset "UTF-8";
 
-  &::after {
-    content: url(imagens/newWindow-icon.png);
-    margin-left: 0.2rem;
-  }
+.tabela {
+  width: 500px;
+  margin: 5% auto;
+  border-collapse: collapse;
 }
-
-a[href="qq.pdf"] {
-  background-color: lime;
-  color: black;
-  display: inline-block;
-  padding: 0.5rem;
-  margin-top: 1rem;
-
-  &::before {
-    content: url("imagens/pdf-icon.gif");
-    margin-right: 0.2rem;
-  }
+th,
+td {
+  padding: 1rem;
 }
-
-input[name="chk1"]:checked + label[for="chk1"] {
+th {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+td {
+  text-transform: capitalize;
+}
+tr:nth-of-type(odd) > td {
+  background-color: rgb(194, 194, 194);
+}
+input {
+  cursor: pointer;
+}
+tr:has(td:first-of-type > input[type="checkbox"]:checked) > td {
   background-color: black;
   color: lime;
-  outline: 2px solid lime;
-  cursor: pointer;
-  padding: 0.5rem;
-}
-
-input[name="chk1"]:not(:checked) + label[for="chk1"] {
-  background-color: black;
-  color: red;
-  outline: 2px solid red;
-  cursor: pointer;
-  padding: 0.5rem;
-}
-
-input[name="chk2"]:disabled + label[for="chk2"] {
-  background-color: black;
-  color: aqua;
-  outline: 2px solid aqua;
-}
-
-h1 + ol > li:nth-of-type(3) {
-  border: 2px solid lime;
-}
-
-h1 + ol > li:nth-of-type(3) > ol > li:nth-of-type(3) {
-  border: 2px solid lime;
-}
-
-h1 + ol > li:nth-of-type(3) > ol > li:nth-of-type(4) > ul > li:nth-of-type(3) {
-  border: 2px solid lime;
+  border-color: lime;
 }
