@@ -1,29 +1,58 @@
 @charset "UTF-8";
-
-.tabela {
-  width: 500px;
+html {
+  font-size: 62.5%;
+}
+.divz {
+  font-size: 1rem;
+  width: 40rem;
+  height: 25rem;
+  border: 0.2rem solid black;
   margin: 5% auto;
-  border-collapse: collapse;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
-th,
-td {
-  padding: 1rem;
+
+label {
+  font-size: 2rem;
+  position: relative;
+  top: 0;
+  left: 0;
+
+  .spanzinha {
+    cursor: pointer;
+
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border: 0.1rem solid black;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      width: 0.6rem;
+      height: 1rem;
+      border: 0.3rem solid white;
+      border-top-color: transparent;
+      border-left-color: transparent;
+
+      transform: translate(0.4rem, -0.2em) rotate(35deg);
+    }
+  }
 }
-th {
-  font-size: 2.4rem;
-  text-transform: uppercase;
+input[type="checkbox"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  opacity: 0;
 }
-td {
-  text-transform: capitalize;
+
+label > input[type="checkbox"]:focus + .spanzinha {
+  outline: 0.2rem solid black;
 }
-tr:nth-of-type(odd) > td {
-  background-color: rgb(194, 194, 194);
-}
-input {
-  cursor: pointer;
-}
-tr:has(td:first-of-type > input[type="checkbox"]:checked) > td {
-  background-color: black;
-  color: lime;
-  border-color: lime;
+label > input[type="checkbox"]:checked + .spanzinha {
+  background-color: lime;
 }
