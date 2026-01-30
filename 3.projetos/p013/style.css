@@ -175,11 +175,11 @@ body {
   > .main-hero_article_section_contatos_item_link {
   background-image: linear-gradient(
     to right,
-    #f6d371,
-    #f27a1d,
-    #cf2872,
+    #4d58ce,
     #912eb9,
-    #4d58ce
+    #cf2872,
+    #f27a1d,
+    #f6d371
   );
 }
 .main-hero_article_section_contatos
