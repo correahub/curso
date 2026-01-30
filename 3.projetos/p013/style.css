@@ -23,10 +23,11 @@ html {
 body {
   display: flex;
   min-height: 100vh;
+  background: url(imagens/bg-unsplash.png) center bottom / cover no-repeat;
 }
 
 .header-hero {
-  background-color: var(--cor-fundo-header);
+  background-color: rgba(49, 51, 60, 0.8);
   width: 20%;
   display: flex;
 }
@@ -91,7 +92,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: var(--cor-fundo-main);
+  background-color: rgb(69, 72, 87, 0.7);
   flex: 1;
 }
 .main-hero_article {
