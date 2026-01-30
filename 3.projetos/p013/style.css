@@ -18,6 +18,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
   display: flex;
@@ -73,7 +74,9 @@ body {
 
       border-bottom: 0.1rem solid rgb(184, 184, 184);
 
-      transition: transform 0.3s ease, text-decoration 0.3s ease 0.1s;
+      transition:
+        transform 0.3s ease,
+        text-decoration 0.3s ease 0.1s;
 
       &:hover {
         background-color: var(--cor-fundo-main);
@@ -82,4 +85,110 @@ body {
       }
     }
   }
+}
+/*************************************/
+.main-hero {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: var(--cor-fundo-main);
+  flex: 1;
+}
+.main-hero_article {
+  padding: 2rem;
+}
+.main-hero_article_titulo-principal {
+  font-size: 3.8rem;
+  color: var(--cor-titulo-principal);
+  padding: 2rem 0rem;
+  text-transform: capitalize;
+}
+.main-hero_article_titulo-secundario {
+  font-size: 2.4rem;
+  padding: 1rem 0rem;
+  color: var(--cor-titulos);
+
+  abbr {
+    text-decoration-style: solid;
+  }
+}
+
+.main-hero_article_titulo-terciario {
+  font-size: 2rem;
+  padding: 1rem 0rem;
+  color: var(--cor-titulos);
+}
+
+.main-hero_article_paragrafo {
+  font-size: 1.6rem;
+  color: var(--cor-titulo-principal);
+  padding: 1rem 0rem;
+}
+
+.main-hero_article_section_titulo-terciario {
+  font-size: 2rem;
+  padding: 1rem 0rem;
+  color: var(--cor-titulos);
+}
+
+.main-hero_article_section_contatos {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+
+  width: 60rem;
+}
+
+.main-hero_article_section_contatos_item {
+  flex: 1;
+  text-align: center;
+}
+
+.emoji {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.main-hero_article_section_contatos_item_link {
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-decoration-line: none;
+
+  &:active {
+    transform: scale(1.05);
+    outline: 2px solid white;
+  }
+}
+
+/*********Cores nos emojis***********/
+.main-hero_article_section_contatos
+  > li:nth-of-type(1)
+  > .main-hero_article_section_contatos_item_link {
+  background-color: rgba(255, 0, 0, 0.747);
+}
+
+.main-hero_article_section_contatos
+  > li:nth-of-type(2)
+  > .main-hero_article_section_contatos_item_link {
+  background-image: linear-gradient(
+    to right,
+    #f6d371,
+    #f27a1d,
+    #cf2872,
+    #912eb9,
+    #4d58ce
+  );
+}
+.main-hero_article_section_contatos
+  > li:nth-of-type(3)
+  > .main-hero_article_section_contatos_item_link {
+  background-color: #24a3f1;
+}
+.main-hero_article_section_contatos
+  > li:nth-of-type(4)
+  > .main-hero_article_section_contatos_item_link {
+  background-color: #126bc4;
 }
