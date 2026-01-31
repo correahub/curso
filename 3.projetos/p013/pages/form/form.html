@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>exercício</title>
+  </head>
+  <body>
+    <header class="header-hero">
+      <div class="header-hero_div-central">
+        <div class="header-hero_div-central_div-img">
+          <a class="link-img" href="#">
+            <img src="/imagens/perfil.png" alt="imagem de perfil" />
+          </a>
+        </div>
+        <nav class="header-hero_div-central_navegacao">
+          <ul class="header-hero_div-central_navegacao_lista">
+            <li class="header-hero_div-central_navegacao_lista_item">
+              <a
+                class="header-hero_div-central_navegacao_lista_item_link"
+                href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="header-hero_div-central_navegacao_lista_item">
+              <a
+                class="header-hero_div-central_navegacao_lista_item_link"
+                href="#"
+                >Tipografia</a
+              >
+            </li>
+            <li class="header-hero_div-central_navegacao_lista_item">
+              <a
+                class="header-hero_div-central_navegacao_lista_item_link"
+                href="/pages/cards/cards.html"
+                >Cards</a
+              >
+            </li>
+            <li class="header-hero_div-central_navegacao_lista_item">
+              <a
+                class="header-hero_div-central_navegacao_lista_item_link"
+                href="#"
+                >Listas</a
+              >
+            </li>
+            <li class="header-hero_div-central_navegacao_lista_item">
+              <a
+                class="header-hero_div-central_navegacao_lista_item_link"
+                href="/pages/form/form.css"
+                >Formulário</a
+              >
+            </li>
+            <li class="header-hero_div-central_navegacao_lista_item">
+              <a
+                class="header-hero_div-central_navegacao_lista_item_link"
+                href="#"
+                >Botões</a
+              >
+            </li>
+            <li class="header-hero_div-central_navegacao_lista_item">
+              <a
+                class="header-hero_div-central_navegacao_lista_item_link"
+                href="#"
+                >Tabelas</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-hero">
+      <article class="main-hero_article">
+        <h1 class="main-hero_article_titulo-principal">My component</h1>
+      </article>
+
+      <section class="main-hero_section">
+        <h2 class="main-hero_section_titulo">Entre em contato</h2>
+        <div class="main-hero_section_div1">
+          <form
+            action="@"
+            method="get"
+            enctype="application/x-www-form-urlencoded"
+            autocomplete="on"
+          >
+            <fieldset class="main-hero_section_div1_formulario">
+              <div class="main-hero_section_div1_formulario_divinputs">
+                <label for="nome">
+                  Nome
+                  <input type="text" name="nome" id="nome" required />
+                </label>
+
+                <label for="email">
+                  Email
+                  <input type="text" name="email" id="email" required />
+                </label>
+              </div>
+              <div class="main-hero_section_div1_formulario_div-textarea">
+                <label for="menssagem"> menssagem </label>
+                <textarea
+                  name="menssagem"
+                  id="menssagem"
+                  required
+                  rows="7"
+                ></textarea>
+              </div>
+              <button type="submit">Enviar</button>
+            </fieldset>
+          </form>
+        </div>
+        <div class="main-hero_section_div2">
+          <address class="main-hero_section_div2_address">
+            <span
+              >Endereço 1234 Somewhere Rd. Nashville, TN 00000
+              UnitedStates</span
+            >
+            <span>Telefone 000-000-000</span>
+            <span>Email email@server.com</span>
+          </address>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
