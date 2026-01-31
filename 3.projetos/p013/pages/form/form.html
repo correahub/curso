@@ -80,50 +80,50 @@
       <article class="main-hero_article">
         <h1 class="main-hero_article_titulo-principal">My component</h1>
       </article>
-
       <section class="main-hero_section">
         <h2 class="main-hero_section_titulo">Entre em contato</h2>
-        <div class="main-hero_section_div1">
-          <form
-            action="@"
-            method="get"
-            enctype="application/x-www-form-urlencoded"
-            autocomplete="on"
-          >
-            <fieldset class="main-hero_section_div1_formulario">
-              <div class="main-hero_section_div1_formulario_divinputs">
-                <label for="nome">
-                  Nome
-                  <input type="text" name="nome" id="nome" required />
-                </label>
-
-                <label for="email">
-                  Email
-                  <input type="text" name="email" id="email" required />
-                </label>
-              </div>
-              <div class="main-hero_section_div1_formulario_div-textarea">
-                <label for="menssagem"> menssagem </label>
-                <textarea
-                  name="menssagem"
-                  id="menssagem"
-                  required
-                  rows="7"
-                ></textarea>
-              </div>
-              <button type="submit">Enviar</button>
-            </fieldset>
-          </form>
-        </div>
-        <div class="main-hero_section_div2">
-          <address class="main-hero_section_div2_address">
-            <span
-              >Endereço 1234 Somewhere Rd. Nashville, TN 00000
-              UnitedStates</span
+        <div class="main-hero_section_div-nquebra">
+          <div class="main-hero_section_div1">
+            <form
+              action="#"
+              method="get"
+              enctype="application/x-www-form-urlencoded"
+              autocomplete="on"
             >
-            <span>Telefone 000-000-000</span>
-            <span>Email email@server.com</span>
-          </address>
+              <fieldset class="main-hero_section_div1_formulario">
+                <div class="main-hero_section_div1_formulario_divinputs">
+                  <label for="nome">
+                    Nome
+                    <input type="text" name="nome" id="nome" required />
+                  </label>
+                  <label for="email">
+                    Email
+                    <input type="email" name="email" id="email" required />
+                  </label>
+                </div>
+                <div class="main-hero_section_div1_formulario_div-textarea">
+                  <label for="menssagem"> menssagem </label>
+                  <textarea
+                    name="menssagem"
+                    id="menssagem"
+                    required
+                    rows="7"
+                  ></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+              </fieldset>
+            </form>
+          </div>
+          <div class="main-hero_section_div2">
+            <address class="main-hero_section_div2_address">
+              <span
+                >Endereço 1234 Somewhere Rd. Nashville, TN 00000
+                UnitedStates</span
+              >
+              <span>Telefone 000-000-000</span>
+              <span>Email email@server.com</span>
+            </address>
+          </div>
         </div>
       </section>
     </main>

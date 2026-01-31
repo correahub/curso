@@ -104,4 +104,84 @@ body {
   text-transform: capitalize;
 }
 
+.main-hero_section {
+  padding: 0rem 2rem;
+}
 
+.main-hero_section_titulo {
+  font-size: 2.4rem;
+  padding-bottom: 1rem;
+  color: var(--cor-titulos);
+}
+
+.main-hero_section_div-nquebra {
+  display: flex;
+  gap: 1rem;
+  & > * {
+    flex: 1;
+  }
+}
+
+.main-hero_section_div1_formulario {
+  display: flex;
+  flex-direction: column;
+  border-color: transparent;
+
+  flex: 1;
+
+  button {
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 0.5rem;
+    color: white;
+    margin-top: 1rem;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 0.3rem;
+  }
+}
+
+.main-hero_section_div1_formulario_divinputs {
+  display: flex;
+  gap: 1rem;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    color: white;
+    flex: 1;
+  }
+  label > input {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    border-color: transparent;
+  }
+}
+
+.main-hero_section_div1_formulario_div-textarea {
+  display: flex;
+  flex-direction: column;
+  label {
+    font-size: 1.6rem;
+    color: white;
+    padding: 1rem 0rem;
+    text-transform: capitalize;
+  }
+  textarea {
+    resize: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem;
+  }
+}
+/***************************************/
+
+.main-hero_section_div2_address {
+  display: flex;
+  flex-direction: column;
+  span {
+    color: white;
+    font-size: 1.6rem;
+    padding: 1rem;
+  }
+}
