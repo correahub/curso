@@ -1,8 +1,29 @@
+:root {
+  --cor-primaria: blue;
+}
+
 body {
   font-family: sans-serif;
-  text-align: center;
-  background-image: url(imagens/tile.png);
+  background-image:
+    linear-gradient(
+      0deg,
+      #2b91c1,
+      #348ec0,
+      #6f7bb2,
+      #9769a4,
+      #b45b95,
+      #d4498c,
+      #e33d83
+    ),
+    url(imagens/tile.png);
+  background-attachment: fixed, scroll;
+  background-position:
+    center,
+    center left;
+  background-repeat: no-repeat, repeat;
+  background-blend-mode: color;
 }
+
 section {
   display: flex;
   flex-direction: column;
@@ -15,17 +36,23 @@ section {
 .cores {
   width: 500px;
   height: 150px;
-  border: 2px solid black;
+  border: 10px solid color-mix(in srgb, var(--cor-primaria) 80%, red 30%);
   box-sizing: border-box;
+  background-color: color-mix(in srgb, red 25%, rgba(0, 0, 255, 0.555) 50%);
   counter-increment: contador 1;
+  padding: 1rem;
+  background-clip: text;
+  color: transparent;
+
   &::before {
-    content: counter(contador);
+    content: "[" counter(contador) "]";
   }
 }
 
 p {
   text-align: center;
-  display: inline;
-  padding: 2rem;
+  padding: 1rem;
   margin: 0;
+
+  
 }
