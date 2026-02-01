@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url(imagens/tile.png);
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  counter-reset: contador 0;
+}
+
+.cores {
+  width: 500px;
+  height: 150px;
+  border: 2px solid black;
+  box-sizing: border-box;
+  counter-increment: contador 1;
+  &::before {
+    content: counter(contador);
+  }
+}
+
+p {
+  text-align: center;
+  display: inline;
+  padding: 2rem;
+  margin: 0;
+}
