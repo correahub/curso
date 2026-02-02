@@ -36,13 +36,16 @@ section {
 .cores {
   width: 500px;
   height: 150px;
-  border: 10px solid color-mix(in srgb, var(--cor-primaria) 80%, red 30%);
   box-sizing: border-box;
-  background-color: color-mix(in srgb, red 25%, rgba(0, 0, 255, 0.555) 50%);
+  background: radial-gradient(
+    ellipse closest-side at 50px 25px,
+    #eb096a 30%,
+    transparent
+  );
+
   counter-increment: contador 1;
+  background-color: rgba(0, 0, 255, 0.521);
   padding: 1rem;
-  background-clip: text;
-  color: transparent;
 
   &::before {
     content: "[" counter(contador) "]";
@@ -53,6 +56,7 @@ p {
   text-align: center;
   padding: 1rem;
   margin: 0;
-
-  
+  color: rgba(255, 255, 255, 0.712);
+  text-transform: capitalize;
+  line-height: 1rem;
 }
