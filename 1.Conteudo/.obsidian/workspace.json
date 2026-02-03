@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "486dc1ac8f9564ae",
+        "id": "a6884d44d2233975",
         "type": "tabs",
         "children": [
           {
-            "id": "d32b97904f1286f7",
+            "id": "3589e266efae20d0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2.fronts/2-css/1.códigos/13.função()-css/7.filter/0.filter.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "0.filter"
             }
           }
         ]
@@ -179,8 +183,27 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "81a1279c1e0825ed",
+  "active": "3589e266efae20d0",
   "lastOpenFiles": [
+    "2.fronts/2-css/1.códigos/13.função()-css/7.filter/2.brightness().md",
+    "2.fronts/2-css/1.códigos/13.função()-css/7.filter/1.blur().md",
+    "2.fronts/2-css/1.códigos/13.função()-css/7.filter/0.filter.md",
+    "2.fronts/2-css/1.códigos/13.função()-css/12.Gradientes/3.conic/Conic.md",
+    "2.fronts/2-css/1.códigos/13.função()-css/12.Gradientes/2.radial/0.radial.md",
+    "2.fronts/2-css/1.códigos/13.função()-css/12.Gradientes/2.radial/1.circle.md",
+    "2.fronts/2-css/1.códigos/13.função()-css/12.Gradientes/2.radial/closest e farthest.md",
+    "2.fronts/2-css/1.códigos/13.função()-css/12.Gradientes/2.radial/2.ellipse.md",
+    "2.fronts/2-css/1.códigos/13.função()-css/12.Gradientes/1.linear/1.linear-gradiant().md",
+    "2.fronts/2-css/1.códigos/13.função()-css/12.Gradientes/3.conic",
+    "2.fronts/2-css/1.códigos/13.função()-css/7.hsl()/360deg.jpg",
+    "2.fronts/2-css/1.códigos/13.função()-css/7.hsl()/360deg 1.jpg",
+    "2.fronts/2-css/1.códigos/13.função()-css/7.hsl()/360deg color.png",
+    "2.fronts/2-css/1.códigos/13.função()-css/12.Gradientes/2.radial",
+    "2.fronts/2-css/1.códigos/13.função()-css/12.Gradientes/1.linear",
+    "2.fronts/2-css/1.códigos/13.função()-css/12.Gradientes/1.linear.md",
+    "2.fronts/2-css/1.códigos/1.backgrounds/7.background-bland-mode.md",
+    "2.fronts/2-css/1.códigos/1.backgrounds/8.background-clip.md",
+    "2.fronts/2-css/1.códigos/13.função()-css/12.linear-gradiant()/360deg.png",
     "2.fronts/2-css/1.códigos/3.text/2.text-decoration.md",
     "2.fronts/2-css/1.códigos/13.função()-css/4.clamp()/4.clamp().md",
     "2.fronts/1-html/1.códigos/11.tables/11.vertical-aling.md",

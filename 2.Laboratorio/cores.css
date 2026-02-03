@@ -39,6 +39,7 @@ section {
   height: 250px;
   box-sizing: border-box;
   background-image: radial-gradient(circle farthest-corner at 25% 25%, blue, red);
+  filter:brightness(3);
 
   counter-increment: contador 1;
   padding: 1rem;
