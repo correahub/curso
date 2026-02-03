@@ -38,16 +38,7 @@ section {
   width: 500px;
   height: 250px;
   box-sizing: border-box;
-  background-image: conic-gradient(
-    from 90deg,
-    white,
-  rgba(0, 0, 0, 0.8),
-    white,
-    rgba(0, 0, 0, 0.8),
-    white,
-    rgba(0, 0, 0, 0.8),
-    white
-  );
+  background-image: radial-gradient(circle farthest-corner at 25% 25%, blue, red);
 
   counter-increment: contador 1;
   padding: 1rem;
