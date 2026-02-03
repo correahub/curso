@@ -34,17 +34,22 @@ section {
 }
 
 .cores {
+  border: 2px solid black;
   width: 500px;
-  height: 150px;
+  height: 250px;
   box-sizing: border-box;
-  background: radial-gradient(
-    ellipse closest-side at 50px 25px,
-    #eb096a 30%,
-    transparent
+  background-image: conic-gradient(
+    from 90deg,
+    white,
+  rgba(0, 0, 0, 0.8),
+    white,
+    rgba(0, 0, 0, 0.8),
+    white,
+    rgba(0, 0, 0, 0.8),
+    white
   );
 
   counter-increment: contador 1;
-  background-color: rgba(0, 0, 255, 0.521);
   padding: 1rem;
 
   &::before {
