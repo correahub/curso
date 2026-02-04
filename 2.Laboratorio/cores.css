@@ -38,11 +38,17 @@ section {
   width: 500px;
   height: 250px;
   box-sizing: border-box;
-  background-image: radial-gradient(circle farthest-corner at 25% 25%, blue, red);
-  filter:brightness(3);
-
-  counter-increment: contador 1;
   padding: 1rem;
+
+  background-image:
+    repeating-conic-gradient(
+      from 0 at center,
+      transparent 0deg,
+      transparent 20deg,
+      black 20deg,
+      black 40deg
+    ),
+    radial-gradient(circle at center, red, blue);
 
   &::before {
     content: "[" counter(contador) "]";
