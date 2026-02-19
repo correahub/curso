@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "0c9c798f40435000",
+    "type": "split",
+    "children": [
+      {
+        "id": "48077e4d7c128ee6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f1163292ee052e58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2.fronts/0.regras/5.tradicional webaplication - singlepage aplication/2.Aplicativo de página única.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.Aplicativo de página única"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bb0a3f500ad9ec93",
+    "type": "split",
+    "children": [
+      {
+        "id": "4bbf7dc6b3a1e574",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "274d0a2c48a124c9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "b1ff2914dea45ea1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "3966fe2eb47e8d03",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b86cfbdb246e7217",
+    "type": "split",
+    "children": [
+      {
+        "id": "78355fe1ea6271be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7632e0111b444148",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "458350ee5e8d49ec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "48620937d1f86220",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b1d8b8fba41ff364",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "e2240eabe507b271",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "274d0a2c48a124c9",
+  "lastOpenFiles": [
+    "2.fronts/0.regras/5.tradicional webaplication - singlepage aplication/1.aplicação da web tradicional.md",
+    "2.fronts/0.regras/5.tradicional webaplication - singlepage aplication/2.Aplicativo de página única.md",
+    "2.fronts/0.regras/5.tradicional webaplication - singlepage aplication",
+    "2.fronts/0.regras/4.webaplicativo/1.definição/1.explicação.md",
+    "2.fronts/0.regras/3.dinamico e estático/1.estático.md",
+    "2.fronts/0.regras/4.webaplicativo/1.definição",
+    "2.fronts/0.regras/4.webaplicativo",
+    "2.fronts/0.regras/3.dinamico e estático/2.dinamico.md",
+    "2.fronts/0.regras/3.dinamico e estático",
+    "2.fronts/0.regras/2.webpage e wibsite/2.website.md",
+    "2.fronts/0.regras/2.webpage e wibsite/1.webpage.md",
+    "3.back/2.sql/1.definição/1.explicação.md",
+    "2.fronts/0.regras/2.webpage e wibsite",
+    "3.back/1.nodejs/1.definição/1.explicação.md",
+    "3.back/2.sql/Sem título.md",
+    "3.back/2.sql/1.definição",
+    "2.fronts/3.javascript/1.definição/1.explicação.md",
+    "3.back/1.nodejs/1.definição.md",
+    "3.back/1.nodejs/1.definição",
+    "2.fronts/3.javascript/Sem título.md",
+    "2.fronts/3.javascript/Sem título",
+    "2.fronts/3.javascript/1.definição",
+    "2.fronts/0.regras/1.Ip, dominio, dns/1.definição.md",
+    "3.back/2.sql",
+    "2.fronts/0.regras/Sem título.md"
+  ]
+}
