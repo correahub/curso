@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+
+
+:root {
+  --cor-main: #FOE8C2;
+  --cor-header: #FOE8C2;
+
+  /*text-colors*/
+  --primary-color: #291b1a;
+  --secondary-color: #573a37;
+  --bg-color: #f0e8c2;
+
+  /*Tipografia*/
+  --family: "Alice";
+  --heading1-size: 4rem;
+  --heading1-line-height: 140%;
+  --heading1-weight: regular;
+
+  --heading2-size: 2.4rem;
+  --heading2-lineheight: 150%;
+  --heading2-weight: regular;
+
+  --paragrafo-size: 1.6rem;
+  --paragrafo-line-height: 150%;
+  --paragrafo-weight: Regular;
+}
