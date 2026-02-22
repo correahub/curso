@@ -1,11 +1,12 @@
 @charset "UTF-8";
 
-
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 
 :root {
-  --cor-main: #FOE8C2;
-  --cor-header: #FOE8C2;
-
   /*text-colors*/
   --primary-color: #291b1a;
   --secondary-color: #573a37;
@@ -24,4 +25,36 @@
   --paragrafo-size: 1.6rem;
   --paragrafo-line-height: 150%;
   --paragrafo-weight: Regular;
+}
+
+html {
+  font-size: 62.5%;
+}
+/***/
+#header-hero {
+  background-color: var(--bg-color);
+  width: 80%;
+  margin: auto;
+}
+
+.header-hero_div-imagem{
+    /ENCONTRAR UMA FORMA AMANHÃ
+    img{
+        display: block;
+        width: 100%;
+    }
+}
+/***/
+
+/***/
+#main-hero {
+  background-color: var(--bg-color);
+  width: 80%;
+  margin: auto;
+}
+/***/
+#footer-hero {
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
