@@ -31,11 +31,8 @@ html {
   font-size: 62.5%;
 }
 body {
-  backdrop-filter: blur(5px);
-  min-height: 100vh;
   margin: 0;
-  background-image: url(imagens/main-image.png);
-  background-position: bottom;
+  background-image: url(imagens/fundo.jpg);
   background-repeat: no-repeat;
   font-size: cover;
   background-attachment: fixed;
@@ -75,6 +72,7 @@ li {
   width: 70%;
   margin: auto;
   padding: 2rem;
+  border-radius: 0rem 0rem 1rem 1rem;
 }
 #igredientes {
   margin: 0;
@@ -115,4 +113,5 @@ li {
   padding: 1rem;
   font-family: var(--family);
   font-size: var(--paragrafo-size);
+  color: wheat;
 }
