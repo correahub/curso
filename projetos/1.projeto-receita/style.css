@@ -45,16 +45,18 @@ li {
 #header-hero {
   background-color: var(--bg-color);
   width: 70%;
-  margin: 3rem auto 0rem;
+  margin: 4.8rem auto 0rem;
   border-radius: 1rem 1rem 0rem 0rem;
   padding: 2rem;
 }
 
 .header-hero_div-imagem {
   width: 100%;
+  text-align: center;
   img {
-    display: block;
+    display: inline-block;
     width: 100%;
+    border-radius: 1rem;
   }
 }
 #titulo-principal {
@@ -108,10 +110,14 @@ li {
   margin: auto;
   text-align: center;
 }
-.footer-hero_paragrafo{
+.footer-hero_paragrafo {
   margin-bottom: 0rem;
-  padding: 1rem;
+  padding: 4rem;
   font-family: var(--family);
   font-size: var(--paragrafo-size);
   color: wheat;
+
+  img{
+    vertical-align: middle;
+  }
 }
