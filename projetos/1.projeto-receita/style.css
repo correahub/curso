@@ -30,19 +30,24 @@
 html {
   font-size: 62.5%;
 }
+body {
+  margin: 0;
+}
 /***/
 #header-hero {
   background-color: var(--bg-color);
   width: 80%;
   margin: auto;
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 1rem;
 }
 
-.header-hero_div-imagem{
-    /ENCONTRAR UMA FORMA AMANHÃ
-    img{
-        display: block;
-        width: 100%;
-    }
+.header-hero_div-imagem {
+  width: 100%;
+  img {
+    display: block;
+    width: 100%;
+  }
 }
 /***/
 
@@ -51,6 +56,10 @@ html {
   background-color: var(--bg-color);
   width: 80%;
   margin: auto;
+}
+#igredientes{
+  margin: 0;
+  padding: 1rem;
 }
 /***/
 #footer-hero {
