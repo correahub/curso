@@ -42,13 +42,17 @@ html {
   --paragraph-sm-weight: Regular;
 }
 
+body{
+    min-height: 100vh;
+}
+
 /*HEADER*/
 
 #header-hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 3.2rem;
   background-color: var(--skeleton-color);
   max-width: 128rem;
 }
@@ -142,7 +146,7 @@ html {
 /*Secion gallery*/
 .main-hero_photo-gallery {
   max-width: 128rem;
-  padding: 2.5rem 3.2rem;
+  padding: 2rem 3.2rem;
 
   display: flex;
   gap: 2.4rem;
@@ -156,5 +160,34 @@ html {
   img {
     width: 100%;
     display: block;
+  }
+}
+#footer-hero {
+  max-width: 128rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 3.2rem;
+}
+.footer-hero_paragraph {
+  font-size: var(--paragraph-sm-size);
+  font-weight: var(--paragraph-sm-weight);
+  line-height: var(--paragraph-sm-line-hight);
+  color: var(--text-color-secondary);
+}
+
+.footer-hero_div-links_list {
+  display: flex;
+  gap: 1.6rem;
+  list-style-type: none;
+}
+.footer-hero_div-links_list_item > a {
+  font-size: var(--paragraph-sm-size);
+  font-weight: var(--paragraph-sm-weight);
+  line-height: var(--paragraph-sm-line-hight);
+  text-decoration-color: transparent;
+  color: var(--text-color-secondary);
+
+  &:hover {
+    text-decoration-color: var(--text-color-primary);
   }
 }
