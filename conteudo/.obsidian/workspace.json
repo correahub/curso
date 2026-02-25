@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0fe39ee5c2d90bcf",
+        "id": "77f1c53e420da30f",
         "type": "tabs",
         "children": [
           {
-            "id": "e3e916630db89900",
+            "id": "78ee02ba7fe8e0d2",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -176,8 +176,22 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "274d0a2c48a124c9",
+  "active": "78ee02ba7fe8e0d2",
   "lastOpenFiles": [
+    "2.fronts/2-css/1.códigos/6.display/5.Flex/0.flex/1.FLEXBOX.md",
+    "2.fronts/2-css/1.códigos/6.display/0.display/1.display.md",
+    "2.fronts/2-css/1.códigos/7.pseudo class e elementos e seletores compostos/3.pseudo classe/12.has.md",
+    "2.fronts/2-css/1.códigos/6.display/5.Flex/7.flex/0.flex.md",
+    "2.fronts/2-css/1.códigos/6.display/5.Flex/6.flex flow/1.flex flow.md",
+    "2.fronts/2-css/1.códigos/6.display/5.Flex/5.aling content/1.align-content.md",
+    "2.fronts/2-css/1.códigos/6.display/5.Flex/4.wrap/1.Wrap.md",
+    "2.fronts/2-css/1.códigos/6.display/5.Flex/3.aling itens/1.flex.md",
+    "2.fronts/2-css/1.códigos/6.display/5.Flex/2.justify-content/1.flex.md",
+    "2.fronts/2-css/1.códigos/6.display/5.Flex/1.flex-direction/1.flex.md",
+    "1.Math/3.aritimética/2.subtração/1.Oque é subtração.md",
+    "1.Math/3.aritimética/2.subtração/2.regras de sinais.md",
+    "1.Math/3.aritimética/1.adição/2.regras de sinais.md",
+    "1.Math/3.aritimética/1.adição/1.Oque é adição.md",
     "2.fronts/1-html/0.regras/2.data-.md",
     "2.fronts/1-html/Sem título",
     "2.fronts/1-html/0.regras/1.Boleano.md",
@@ -198,21 +212,7 @@
     "4.git/2.códigos/8.restore/1.definição",
     "4.git/2.códigos/8.restore",
     "4.git/2.códigos/7.pwd/1.definição.md",
-    "4.git/2.códigos/0.criar,mover,deletar,entrar, sair/4.rm/1.definição.md",
     "4.git/2.códigos/7.pwd",
-    "4.git/2.códigos/0.criar,mover,deletar,entrar, sair/1.mkdir/1.definição.md",
-    "4.git/2.códigos/6.log/1.definição/1.explicação.md",
-    "4.git/2.códigos/5.commit/1.Definição.md",
-    "4.git/2.códigos/6.log/1.definição",
-    "4.git/2.códigos/4.add/1.definição.md",
-    "4.git/2.códigos/3.status/1.definição.md",
-    "4.git/2.códigos/2.config/2.list/1.definição.md",
-    "4.git/2.códigos/2.config/1.name,email/1.definição.md",
-    "4.git/2.códigos/0.criar,mover,deletar,entrar, sair/3.cd/1.definição.md",
-    "4.git/2.códigos/0.criar,mover,deletar,entrar, sair/2.touch/1.definição.md",
-    "4.git/2.códigos/1.init/1.definição.md",
-    "4.git/1.definição/1.explicação.md",
-    "1.Math/1.Classes e ordens/2.ordens decimais.md",
-    "1.Math/1.Classes e ordens/0.resumo.md"
+    "4.git/2.códigos/6.log/1.definição"
   ]
 }
