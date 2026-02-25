@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  /*Style*/
+
+  --logo-color: #ef5f4c;
+
+  --background-color: #ffffff;
+  --surface-color: #f5f5f5;
+  --skeleton-color: #d9d9d9;
+  --shape-transparency: #ffffff;
+
+  /*text*/
+  --text-color-primary: #313131;
+  --text-color-secondary: #6c6c6c;
+
+  /*Name    Size   Line Height Weight*/
+
+  --font: "Poppins";
+
+  --heading1-size: 3.2rem;
+  --heading1-line: 125%;
+  --heading1-weight: Bold;
+
+  --paragraph-md-size: 1.4rem;
+  --paragraph-md-line-hight: 170%;
+  --paragraph-md-weight: Regular;
+
+  --paragraph-sm-size: 1.2rem;
+  --paragraph-sm-line-hight: 170%;
+  --paragraph-sm-weight: Regular;
+}
