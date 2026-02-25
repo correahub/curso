@@ -4,10 +4,12 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-html{
-    font-size: 62.5%;
-    font-family: "Poppins";
+html {
+  font-size: 62.5%;
+  font-family: "Poppins";
 }
 :root {
   /*Style*/
@@ -31,11 +33,128 @@ html{
   --heading1-line: 125%;
   --heading1-weight: Bold;
 
-  --paragraph-md-size: 1.4rem;
+  --paragraph-md-size: 1.6rem;
   --paragraph-md-line-hight: 170%;
   --paragraph-md-weight: Regular;
 
-  --paragraph-sm-size: 1.2rem;
+  --paragraph-sm-size: 1.4rem;
   --paragraph-sm-line-hight: 170%;
   --paragraph-sm-weight: Regular;
+}
+
+/*HEADER*/
+
+#header-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--skeleton-color);
+  max-width: 128rem;
+}
+.header-hero_nav_list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 1.6rem;
+}
+
+.header-hero_nav_list_item > a {
+  font-size: var(--paragraph-md-size);
+  line-height: var(--paragraph-md-line-hight);
+  font-weight: var(--paragraph-md-weight);
+  color: var(--text-color-secondary);
+
+  text-decoration-color: transparent;
+
+  &:hover {
+    text-decoration-color: var(--text-color-primary);
+  }
+}
+
+.header-hero_nav_list_item:first-child > a > img {
+  width: 2.4rem;
+}
+.header-hero_nav_list_item:last-child > a > img {
+  width: 4rem;
+}
+
+/*header*/
+
+/*MAIN*/
+
+/*secion*/
+.main-hero_about-section {
+  background-color: var(--skeleton-color);
+  max-width: 128rem;
+}
+
+.main-hero_about-section {
+  padding: 3.2rem;
+}
+
+.main-hero_about-section_div {
+  display: flex;
+
+  & > * {
+    flex: 1;
+  }
+}
+
+.main-hero_about-section_div > div:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.main-hero_about-section_div_informations {
+  margin-left: 3.2rem;
+}
+#main-title {
+  font-size: var(--heading1-size);
+  font-weight: var(--heading1-weight);
+  line-height: var(--heading1-line);
+  color: var(--text-color-primary);
+}
+.main-paragraph {
+  font-size: var(--paragraph-sm-size);
+  font-weight: var(--paragraph-sm-weight);
+  line-height: var(--paragraph-sm-weight);
+  margin-top: 0.8rem;
+  color: var(--text-color-secondary);
+}
+
+.main-hero_about-section_div-viagens-informations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-hero_about-section_div-viagens-informations_list_item {
+  display: flex;
+}
+.main-hero_about-section_div-viagens-informations_list_item > p {
+  font-size: var(--paragraph-sm-size);
+  font-weight: var(--paragraph-sm-weight);
+  line-height: var(--paragraph-sm-line-hight);
+  color: var(--text-color-secondary);
+  padding: 1rem;
+}
+
+/*Secion gallery*/
+.main-hero_photo-gallery {
+  max-width: 128rem;
+  padding: 2.5rem 3.2rem;
+
+  display: flex;
+  gap: 2.4rem;
+}
+.main-hero_photo-gallery > div {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  img {
+    width: 100%;
+    display: block;
+  }
 }
