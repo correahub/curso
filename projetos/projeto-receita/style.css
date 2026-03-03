@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root{
+    /*Cor de fundo*/
+    --background-color:#573824;
+    --surface-color: #F0E8C2;
+
+    /*cor de texto*/
+    --text-color-primary:#291B1A;
+    --texet-color-secondary:#573A37;
+    --text-color-on-bg: #F0E8C2;
+
+    /*configuração de texto*/
+    --font-family: "Alice"
+
+    /*Titulo-principal*/
+    --heading1-size: 4rem;
+    --heading1-lineheight: 140%;
+    --heading1-weight: Regular
+    /*Título secundário*/
+    --heading2-size: 2.4rem;
+    --heading2-lineheight: 150%;
+    --heading2-weight: Regular
+    /*paragraph*/
+    --paragraph-size: 1.6rem;
+    --paragraph-lineheight:150%;
+    --paragraph-weight: Regular
+
+}
