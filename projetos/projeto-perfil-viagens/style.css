@@ -40,6 +40,7 @@ html {
 /*Header Start*/
 
 #header-hero {
+  max-width: 128rem;
   background: var(--skeleton-color);
 }
 
@@ -79,9 +80,11 @@ html {
 /*Header End*/
 
 /*Start Main*/
-#main-hero{
-    background-color: var(--skeleton-color);
+#main-hero {
+  max-width: 128rem;
+  background-color: var(--skeleton-color);
 }
+/*Start informations main*/
 .main-hero_article-abount_informations {
   display: flex;
   align-items: center;
@@ -135,4 +138,12 @@ html {
   line-height: var(--paragraph-sm-line);
   color: var(--text-color-secondary);
   margin-left: 0.8rem;
+}
+/*End informations main*/
+/*Start Gallery Main*/
+
+.gallery_div1,
+.gallery_div2,
+.gallery_div3 {
+  display: flex;
 }
