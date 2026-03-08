@@ -117,6 +117,7 @@ html {
   font-weight: var(--paragraph-sm-weight);
   line-height: var(--paragraph-sm-line);
   color: var(--text-color-secondary);
+  max-width: 38.4rem;
 }
 
 .div-informations-viagens {
@@ -144,11 +145,20 @@ html {
 /*End informations main*/
 /*Start Gallery Main*/
 .gallery {
-  background-color: var(--skeleton-color);
-  img{
-    display: block;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3.2rem 2.4rem;
+  gap: 2.4rem
+  ;
+  
+  img {
+    width: 28.6rem;
+    height: 28.6rem;
+    flex: 1;
+    object-fit: cover;
   }
 }
+
 #footer-hero {
   max-width: 128rem;
   margin: 0 auto;
